@@ -11,7 +11,7 @@
     <Window.Background>
         <ImageBrush ImageSource="icons/bground.png"/>
     </Window.Background>
-    <Grid Width="920" Height="590" Margin="2,0,-1,1">
+    <Grid Width="920" Height="590">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="463"/>

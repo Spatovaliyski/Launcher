@@ -17,6 +17,7 @@ using System.Windows.Threading;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Web;
+using System.IO;
 
 namespace Pandaria_Launcher
 {
@@ -39,6 +40,54 @@ namespace Pandaria_Launcher
             Version AppVersion = Assembly.GetExecutingAssembly().GetName().Version;
             this.version.Content = String.Format("{0}.{1}.{2}.{3}", AppVersion.Major, AppVersion.Minor, AppVersion.Build, AppVersion.Revision);
 
+            bool hasRealm = false;
+            try
+            {
+                using (StreamReader configRead = new StreamReader(@"WTF/Config.wtf"))
+                {
+                    string line;
+                    int lineID = 0;
+                    while ((line = configRead.ReadLine()) != null)
+                    {
+                        if (line.Substring(0, 13) == "SET realmlist")
+                        {
+                            if (line.Substring(13) == "\"pandaria.es\"")
+                                hasRealm = true;
+                            else
+                            {
+                                var file = new List<string>(File.ReadAllLines(@"WTF/Config.wtf"));
+                                file.RemoveAt(lineID);
+                                File.WriteAllLines("WTF/temp.wtf", file.ToArray());
+                            }
+                        }
+                        lineID++;
+                    }
+                }
+                if (hasRealm == false)
+                {
+                    using (var writer = File.AppendText(@"WTF/temp.wtf"))
+                    {
+                        writer.WriteLine("SET realmlist \"pandaria.es\"");
+                    }
+                    File.Replace(@"WTF/temp.wtf", @"WTF/Config.wtf", @"WTF/backup.wtf");
+                    File.Delete(@"WTF/backup.wtf");
+                }
+            }
+            catch(Exception ex)
+            {
+                if (ex is DirectoryNotFoundException)
+                {
+                    Directory.CreateDirectory(@"WTF");
+                    using (StreamWriter newConfig = new StreamWriter(@"WTF/Config.wtf"))
+                        newConfig.WriteLine("SET realmlist \"pandaria.es\"");
+                }
+                else if (ex is IOException)
+                    using (StreamWriter newConfig = new StreamWriter(@"WTF/Config.wtf"))
+                        newConfig.WriteLine("SET realmlist \"pandaria.es\"");
+                else
+                    MessageBox.Show("Something went wrong! If the problem continues to persist please contact us!");
+            }
+            
             try
             {
                 Ping ping = new Ping();
