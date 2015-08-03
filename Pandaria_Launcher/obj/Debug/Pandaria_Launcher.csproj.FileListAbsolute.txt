@@ -1,0 +1,26 @@
+c:\users\shado_000\documents\visual studio 2013\Projects\Pandaria_Launcher\Pandaria_Launcher\bin\Debug\Pandaria_Launcher.exe.config
+c:\users\shado_000\documents\visual studio 2013\Projects\Pandaria_Launcher\Pandaria_Launcher\bin\Debug\Pandaria_Launcher.exe
+c:\users\shado_000\documents\visual studio 2013\Projects\Pandaria_Launcher\Pandaria_Launcher\bin\Debug\Pandaria_Launcher.pdb
+c:\users\shado_000\documents\visual studio 2013\Projects\Pandaria_Launcher\Pandaria_Launcher\obj\Debug\Pandaria_Launcher.csprojResolveAssemblyReference.cache
+c:\users\shado_000\documents\visual studio 2013\Projects\Pandaria_Launcher\Pandaria_Launcher\obj\Debug\MainWindow.baml
+c:\users\shado_000\documents\visual studio 2013\Projects\Pandaria_Launcher\Pandaria_Launcher\obj\Debug\MainWindow.g.cs
+c:\users\shado_000\documents\visual studio 2013\Projects\Pandaria_Launcher\Pandaria_Launcher\obj\Debug\App.g.cs
+c:\users\shado_000\documents\visual studio 2013\Projects\Pandaria_Launcher\Pandaria_Launcher\obj\Debug\Pandaria_Launcher_MarkupCompile.cache
+c:\users\shado_000\documents\visual studio 2013\Projects\Pandaria_Launcher\Pandaria_Launcher\obj\Debug\Pandaria_Launcher.g.resources
+c:\users\shado_000\documents\visual studio 2013\Projects\Pandaria_Launcher\Pandaria_Launcher\obj\Debug\Pandaria_Launcher.Properties.Resources.resources
+c:\users\shado_000\documents\visual studio 2013\Projects\Pandaria_Launcher\Pandaria_Launcher\obj\Debug\Pandaria_Launcher.csproj.GenerateResource.Cache
+c:\users\shado_000\documents\visual studio 2013\Projects\Pandaria_Launcher\Pandaria_Launcher\obj\Debug\Pandaria_Launcher.exe
+c:\users\shado_000\documents\visual studio 2013\Projects\Pandaria_Launcher\Pandaria_Launcher\obj\Debug\Pandaria_Launcher.pdb
+C:\Users\SpliddoPC\Desktop\Нова папка\Pandaria_Launcher\bin\Debug\Pandaria_Launcher.exe.config
+C:\Users\SpliddoPC\Desktop\Нова папка\Pandaria_Launcher\obj\Debug\Pandaria_Launcher.exe
+C:\Users\SpliddoPC\Desktop\Нова папка\Pandaria_Launcher\obj\Debug\Pandaria_Launcher.pdb
+C:\Users\SpliddoPC\Desktop\Нова папка\Pandaria_Launcher\bin\Debug\Pandaria_Launcher.exe
+C:\Users\SpliddoPC\Desktop\Нова папка\Pandaria_Launcher\bin\Debug\Pandaria_Launcher.pdb
+C:\Users\SpliddoPC\Desktop\Нова папка\Pandaria_Launcher\obj\Debug\Pandaria_Launcher.csprojResolveAssemblyReference.cache
+C:\Users\SpliddoPC\Desktop\Нова папка\Pandaria_Launcher\obj\Debug\MainWindow.baml
+C:\Users\SpliddoPC\Desktop\Нова папка\Pandaria_Launcher\obj\Debug\MainWindow.g.cs
+C:\Users\SpliddoPC\Desktop\Нова папка\Pandaria_Launcher\obj\Debug\App.g.cs
+C:\Users\SpliddoPC\Desktop\Нова папка\Pandaria_Launcher\obj\Debug\Pandaria_Launcher_MarkupCompile.cache
+C:\Users\SpliddoPC\Desktop\Нова папка\Pandaria_Launcher\obj\Debug\Pandaria_Launcher.g.resources
+C:\Users\SpliddoPC\Desktop\Нова папка\Pandaria_Launcher\obj\Debug\Pandaria_Launcher.Properties.Resources.resources
+C:\Users\SpliddoPC\Desktop\Нова папка\Pandaria_Launcher\obj\Debug\Pandaria_Launcher.csproj.GenerateResource.Cache
